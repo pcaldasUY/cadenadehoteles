@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div id="cabecera">
+            <div id="contenidoCabecera">
+                <div id="barraHorizontal">
+
+                </div>
+                <div id="logo">
+                    <img class="pequeña" src="images/logopc.jpg" alt="logo PC"/>
+                </div>
+                <div id="titulo">
+                    <h1>Maquetando y Diseñado en ASP.NET</h1>
+                    <h2>Usando Master Page y Temas</h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="bajo">
+           
+             <div id="columnIzq">
+                <asp:ContentPlaceHolder id="contenidoMenuContextual" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="columnCentro">
+                <asp:ContentPlaceHolder id="contenidoPrincipal" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="columnDer">
+
+            </div>
+            <div id="pie">
+                <span>Web de Pablo Caldas</span>
+            </div>
+
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LibroReclamos>
+  <Reclamos usuario="Pablo Ramirez">
+    <hotel>Grand Hotel Bristol</hotel>
+    <comentario>no existen reclamos</comentario>
+  </Reclamos>
+  <Reclamos usuario="Juan Acosta">
+    <hotel>Grand Hotel Bristol</hotel>
+    <comentario>no existen las habitaciones reservadas</comentario>
+  </Reclamos>
+  <Reclamos usuario="Juan Acosta">
+    <hotel>NH Gran Hotel Provincial</hotel>
+    <comentario>no tengo la reserva confirmada</comentario>
+  </Reclamos>
+  <Reclamos usuario="Pablo Ramirez">
+    <hotel>Grand Hotel Bristol</hotel>
+    <comentario>sdfsdf</comentario>
+  </Reclamos>
+  <Reclamos usuario="Pablo Ramirez">
+    <hotel>NH Gran Hotel Provincial</hotel>
+    <comentario>erwerewr</comentario>
+  </Reclamos>
+</LibroReclamos>
