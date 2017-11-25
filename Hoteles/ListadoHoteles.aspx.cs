@@ -8,6 +8,7 @@ public partial class Hoteles_ListadoHoteles : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        gdvListadoHoteles.DataSource = LogicaHotel.Listado();
+        gdvListadoHoteles.DataBind();
     }
 }
