@@ -3,9 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" Runat="Server">
-    <ul>
-        <li><a href="AdministrarClientes.aspx">Administrar Clentes</a></li>
-        <li><a href="ListadoClientes.aspx">Listado de Clentes</a></li>
+    <ul id="menuContextual">
+        <li><a href="AdministrarClientes.aspx">Administrar Clientes</a></li>
+        <li><a href="ListadoClientes.aspx">Listado de Clientes</a></li>
         <li><a href="AltaCliente.aspx">Alta de Cliente</a></li>
     </ul>
 </asp:Content>

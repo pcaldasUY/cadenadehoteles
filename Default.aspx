@@ -8,5 +8,5 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" Runat="Server">
     
-    <h2>Bienvenidos a la web</h2>
+    <h2>Bienvenidos a la web de la cadena de hoteles PC</h2>
  </asp:Content>

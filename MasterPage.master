@@ -16,14 +16,18 @@
         <div id="cabecera">
             <div id="contenidoCabecera">
                 <div id="barraHorizontal">
-
+                    <ul>
+                        <li><a href="/Default.aspx">Home</a></li>
+                        <li><a href="/Clientes/AdministrarClientes.aspx">Clientes</a></li>
+                        <li><a href="/Hoteles/AdministrarHoteles.aspx">Hoteles</a></li>
+                    </ul>
                 </div>
                 <div id="logo">
-                    <img class="pequeña" src="images/logopc.jpg" alt="logo PC"/>
+                    <img class="pequeña" src="/images/logopc.jpg" alt="logo PC"/>
                 </div>
                 <div id="titulo">
                     <h1>Maquetando y Diseñado en ASP.NET</h1>
-                    <h2>Usando Master Page y Temas</h2>
+                    <h2>Proyecto Final - Instituto BIOS</h2>
                 </div>
             </div>
         </div>

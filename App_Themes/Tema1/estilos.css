@@ -3,29 +3,52 @@
 
 #cabecera {
     height: 150px;
+    margin-left: 195px;
+    margin-right: 195px;
     background-color: #FF7800;
     color: white;
-    border: 1px dashed #A64E06;
+    border: 0px dashed #A64E06;
     box-shadow: 0px 0px 10px #000;
-    position:relative;
-    z-index:2;
-    width: 960px;
+    position: relative;
+    z-index: 2;
 }
 
 #contenidoCabecera {
     width: 960px;
-    margin: auto
+    margin: auto;
 }
 
 #barraHorizontal {
     height: 30px;
     background-color: #A64E06;
-    border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 0px 10px #000 inset;
+    box-shadow: 0px 0px 30px #000 inset;
+    text-align: left;
 }
 
+    #barraHorizontal > ul {
+        list-style-type: none;
+        padding: 10% 0px 0px 20%;
+        margin: 0;
+    }
+
+    #barraHorizontal li {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        background-color: none;
+        color: black;
+        box-shadow: 0px 0px 5px #000 inset;
+    }
+
+        #barraHorizontal li > a {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
 #logo {
-    width: 35%;
+    width: 20%;
     float: left;
     text-align: center;
     margin-top: 10px;
@@ -51,41 +74,59 @@ img.pequeña {
         margin-top: 12px;
     }
 
-    #titulo > h2{
-        margin-bottom:0;
+    #titulo > h2 {
+        margin-bottom: 0;
     }
 
-#bajo{
-    width:960px;
-    margin:auto;
-    background-color:#FF9A40;
-    border-radius:0px 0px 20px 20px;
-    overflow:auto;
-    box-shadow:0px 0px 10px #000;
+#bajo {
+    width: 960px;
+    margin: auto;
+    background-color: #FF9A40;
+    overflow: auto;
+    box-shadow: 0px 0px 10px #000;
 }
 
-#columnIzq, #columnDer{
-    float:left;
-    width:20%;
-    min-height:450px;
+#columnIzq, #columnDer {
+    float: left;
+    width: 20%;
+    min-height: 450px;
 }
 
-#columnCentro{
-    float:left;
-    width:60%;
-    min-height:450px;
-    background-color:white;
-    box-shadow:0px 0px 5px #000 inset;
-
+#menuContextual {
+    list-style-type: none;
+    padding: 0;
 }
 
-#pie{
-    height:30px;
-    background-color:#000;
-    border-radius:0px 0px 20px 20px;
-    clear:both;
-    box-shadow:0px 0px 5px #000 inset;
-    color:white;
-    text-align:center;
-    padding-top:5px;
+    #menuContextual > li {
+        padding: 10px;
+        text-align: left;
+        background-color: #A64E06;
+        color: white;
+        border:1px outset #A64E06;
+        box-shadow:0px 0px 10px #000 inset;
+    }
+
+        #menuContextual > li > a {
+            text-decoration:none;
+            color:white;
+            font-family: Calibri;
+            font-size: 14px;
+        }
+
+#columnCentro {
+    float: left;
+    width: 60%;
+    min-height: 450px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #000 inset;
+}
+
+#pie {
+    height: 30px;
+    background-color: #A64E06;
+    clear: both;
+    box-shadow: 0px 0px 5px #000 unset;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
 }
