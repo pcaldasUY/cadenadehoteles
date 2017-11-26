@@ -8,12 +8,11 @@
     top: 0;
     background-color: #333;
     color: #FFFFFF;
-    padding: 5px;
+    height: 100px;
 }
 
 #barraHorizontal {
     background-color: #4e6cb5;
-    padding: 1px;
 }
 
     #barraHorizontal > ul {
@@ -21,16 +20,20 @@
         margin: 0;
         padding: 0;
         display: flex;
+        background-color: #4e6cb5;
     }
 
         #barraHorizontal > ul > li {
             display: inline-block;
+            text-decoration-line: none;
+            background-color: #4e6cb5;
+            
         }
 
     #barraHorizontal li a {
         display: block;
         padding: 5px 10px;
-        color: #fff;
+        color: beige;
         text-decoration: none;
     }
 
@@ -40,6 +43,19 @@
 }
 
 #columnIzq{
-    width: 300px;
+    width: 250px;
     float: left;
+    height:400px;
+}
+
+#menuContextual li {
+    list-style: none;
+}
+
+#formulario{
+    width: 700px;
+    height: 350px;
+    background-color:antiquewhite;
+    padding: 5px;
+    
 }
